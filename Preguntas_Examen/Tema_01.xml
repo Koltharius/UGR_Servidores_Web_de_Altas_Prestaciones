@@ -1,0 +1,16 @@
+<pregunta>
+   <enunciado>¿Cuál es la causa de que un sitio web sea inestable, se colapse y se caiga con frecuencia?</enunciado>
+   <opcionA>Ser atacado con frecuencia.</opcionA>
+   <opcionB>No estar haber sido planificado correctamente.</opcionB>
+   <opcionC>No disponer de la última tecnología en servidores.</opcionC>
+   <opcionD>No estar alojado en una granja web.</opcionD>
+   <solucion>B</solucion>
+</pregunta>
+<pregunta>
+   <enunciado>¿Cuál es la peor opción si quieres montar un sitio web de éxito?</enunciado>
+   <opcionA>Instalar todos los servicios en una sola máquina.</opcionA>
+   <opcionB>Montar un cold spare server.</opcionB>
+   <opcionC>Configurar varias máquinas para que cada una se encargue de un servicio.</opcionC>
+   <opcionD>Tener dos máquinas, una de producción y otra de desarrollo.</opcionD>
+   <solucion>C</solucion>
+</pregunta>
