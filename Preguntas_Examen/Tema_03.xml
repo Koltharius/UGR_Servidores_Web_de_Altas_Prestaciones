@@ -1,16 +1,16 @@
 <pregunta>
-   <enunciado></enunciado>
-   <opcionA></opcionA>
-   <opcionB></opcionB>
-   <opcionC></opcionC>
-   <opcionD></opcionD>
-   <solucion></solucion>
+   <enunciado>¿Qué es un backbone?</enunciado>
+   <opcionA>El eje principal de enlace entre máquinas</opcionA>
+   <opcionB>El eje de enlace entre maquinas </opcionB>
+   <opcionC>El eje secundario de enlace entre maquinas</opcionC>
+   <opcionD>El eje que une los distintos servidores</opcionD>
+   <solucion>A</solucion>
 </pregunta>
 <pregunta>
-   <enunciado></enunciado>
-   <opcionA></opcionA>
-   <opcionB></opcionB>
-   <opcionC></opcionC>
-   <opcionD></opcionD>
-   <solucion></solucion>
+   <enunciado>¿Qué es el DMZ?</enunciado>
+   <opcionA>Un área restringida o aislada y totalmente controlada</opcionA>
+   <opcionB>La ubicación donde se encuentran los ordenadores militares</opcionB>
+   <opcionC>Un area aislada a la cual no pueden acceder los administradores</opcionC>
+   <opcionD>Un area de ordenadores que ofrece servicios a redes externas</opcionD>
+   <solucion>A</solucion>
 </pregunta>

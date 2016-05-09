@@ -1,16 +1,16 @@
 <pregunta>
-   <enunciado></enunciado>
-   <opcionA></opcionA>
-   <opcionB></opcionB>
-   <opcionC></opcionC>
-   <opcionD></opcionD>
-   <solucion></solucion>
+   <enunciado>¿Qué metricas se utilizan para medir las prestaciones de un sistema web?</enunciado>
+   <opcionA>Conexiones por segundo</opcionA>
+   <opcionB>Rendimiento</opcionB>
+   <opcionC>Total de conexiones concurrentes</opcionC>
+   <opcionD>Todas las anteriores</opcionD>
+   <solucion>D</solucion>
 </pregunta>
 <pregunta>
-   <enunciado></enunciado>
-   <opcionA></opcionA>
-   <opcionB></opcionB>
-   <opcionC></opcionC>
-   <opcionD></opcionD>
-   <solucion></solucion>
+   <enunciado>El tráfico HTTP:</enunciado>
+   <opcionA>Consume ancho de banda intensivamente y genera muchas conexiones por segundo</opcionA>
+   <opcionB>El HTTP 1.0 envia con una conexión varios objeto</opcionB>
+   <opcionC>El HTTP 1.1 necesita una conexión para cada objeto</opcionC>
+   <opcionD>No necesita que las web sean ligeras para ser cargadas rápidamente</opcionD>
+   <solucion>A</solucion>
 </pregunta>

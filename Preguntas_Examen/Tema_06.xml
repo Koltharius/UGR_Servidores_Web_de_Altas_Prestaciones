@@ -1,16 +1,16 @@
 <pregunta>
-   <enunciado></enunciado>
-   <opcionA></opcionA>
-   <opcionB></opcionB>
-   <opcionC></opcionC>
-   <opcionD></opcionD>
-   <solucion></solucion>
+   <enunciado>De cual de las siguientes tareas no se encarga un cortafuegos:</enunciado>
+   <opcionA>Bloquear y filtrar paquetes</opcionA>
+   <opcionB>Controlar protocolos de aplicación</opcionB>
+   <opcionC>Proteger los servidores y aplicaciones de ataques</opcionC>
+   <opcionD>Mostrar los servidores finales a otras redes</opcionD>
+   <solucion>D</solucion>
 </pregunta>
 <pregunta>
-   <enunciado></enunciado>
-   <opcionA></opcionA>
-   <opcionB></opcionB>
-   <opcionC></opcionC>
-   <opcionD></opcionD>
-   <solucion></solucion>
+   <enunciado>La seguridad a nivel físico:</enunciado>
+   <opcionA>Es menos importante que la del nivel de red</opcionA>
+   <opcionB>Es tan importante como la del nivel de red</opcionB>
+   <opcionC>Es más importante que la del nivel de red</opcionC>
+   <opcionD>No es nada importante</opcionD>
+   <solucion>B</solucion>
 </pregunta>

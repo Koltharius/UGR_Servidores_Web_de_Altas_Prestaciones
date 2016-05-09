@@ -1,16 +1,16 @@
 <pregunta>
-   <enunciado></enunciado>
-   <opcionA></opcionA>
-   <opcionB></opcionB>
-   <opcionC></opcionC>
-   <opcionD></opcionD>
-   <solucion></solucion>
+   <enunciado>¿Qué es la Virtual IP (VIP)?</enunciado>
+   <opcionA>Es la dirección pública a la que acceden los usuarios cuando piden un servicio al sistema</opcionA>
+   <opcionB>Suele ser la IP del balanceador de carga</opcionB>
+   <opcionC>Es la forma de hacer que el conjunto de máquinas de la granja aparezca como una sola</opcionC>
+   <opcionD>Todas son correctas</opcionD>
+   <solucion>D</solucion>
 </pregunta>
 <pregunta>
-   <enunciado></enunciado>
-   <opcionA></opcionA>
-   <opcionB></opcionB>
-   <opcionC></opcionC>
-   <opcionD></opcionD>
-   <solucion></solucion>
+   <enunciado>Las venajas que ofrece un balanceador de carga son:</enunciado>
+   <opcionA>Mejora la escalabilidad y la disponibilidad</opcionA>
+   <opcionB>Facilita el mantenimiento</opcionB>
+   <opcionC>Mejora la seguridad</opcionC>
+   <opcionD>Todas son correctas</opcionD>
+   <solucion>D</solucion>
 </pregunta>
