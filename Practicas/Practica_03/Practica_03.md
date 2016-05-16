@@ -140,3 +140,13 @@ Para la instalación y configuración de haproxy debemos seguir los siguientes p
    ```
 
    ![9](Imagenes/9.png)
+
+3. Lanzamos el servicio haproxy mediante el siguiente comando:
+
+   ```
+   /usr/sbin/haproxy -f /etc/haproxy/haproxy.cfg
+   ```
+
+4. Para probar que la nueva configuración funciona correctamente hacemos varias pruebas con `curl http://ip_balanceador` y este deberá de contestarnos alternamente con server1 y server2 como se muestra en el siguiente ejemplo:
+
+   ![10](Imagenes/10.png)
