@@ -4,7 +4,7 @@ Prácticas de la asignatura Servidores Web de Altas Prestaciones
 ## Lista de Practicas
 - [Práctica 1: Preparación de las Herramientas](https://github.com/Koltharius/UGR_Servidores_Web_de_Altas_Prestaciones/blob/master/Practicas/Practica_01/Practica_01.md)
 - [Práctica 2: Replicar datos entre servidores](https://github.com/Koltharius/UGR_Servidores_Web_de_Altas_Prestaciones/blob/master/Practicas/Practica_02/Practica_02.md)
-- [Práctica 3: Balanceo de carga en una granja web](https://github.com/Koltharius/UGR_Servidores_Web_de_Altas_Prestaciones/tree/master/Practicas/Practica_03)
+- [Práctica 3: Balanceo de carga en una granja web](https://github.com/Koltharius/UGR_Servidores_Web_de_Altas_Prestaciones/tree/master/Practicas/Practica_03/Practica_03.md)
 - [Práctica 4: Evaluación de prestaciones]()
 - [Práctica 5: Replicación de bases de datos maestro-esclavos]()
 - [Práctica 6: Configuración de discos en RAID]()
