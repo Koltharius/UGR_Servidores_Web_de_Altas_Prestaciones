@@ -1,4 +1,3 @@
-
 # Practica 3: Balanceo de carga
 
 En esta práctica vamos a configurar una red entre varias máquinas para conseguir un balanceador HTTP que reparta la carga entre los servidores finales consiguiendo una infraestructura redundante y de alta disponibilidad.
@@ -150,3 +149,50 @@ Para la instalación y configuración de haproxy debemos seguir los siguientes p
 4. Para probar que la nueva configuración funciona correctamente hacemos varias pruebas con `curl http://ip_balanceador` y este deberá de contestarnos alternamente con server1 y server2 como se muestra en el siguiente ejemplo:
 
    ![10](Imagenes/10.png)
+
+## Instalación y configuración de Lighttpd
+
+Para la instalación y configuración de lighttpd debemos seguir los siguientes pasos:
+
+1. Lo primero que debemos hacer es instalar lighttpd
+
+   ```
+   sudo apt-get install lighttpd
+   ```
+
+   ![11](Imagenes/11.png)
+
+2. Modificamos el fichero de configuración de lighttpd que se encuentra en la ruta `/etc/lighttpd/lighttpd.conf` quedando de la siguiente manera:
+
+   ```
+   server.modules = (
+     "mod_access",
+     "mod_alias",
+     "mod_compress",
+     "mod_redirect",
+     "mod_rewrite",
+     "mod_proxy"
+   )
+
+   server.document-root        = "/var/www"
+   server.upload-dirs          = ( "/var/cache/lighttpd/uploads" )
+   server.errorlog             = "/var/log/lighttpd/error.log"
+   server.pid-file             = "/var/run/lighttpd.pid"
+
+   $SERVER["socket"] == ":80"{
+     proxy.balance = "round-robin"
+     proxy.server = ("" => (("host" => "server1"), ("host" => "server2")))
+  }
+   ```
+
+   ![12](Imagenes/12.png)
+
+3. Relanzamos el servidor con el siguiente comando:
+
+   ```
+   sudo service lighttpd restart
+   ```
+
+4. Para probar que la nueva configuración funciona correctamente hacemos varias pruebas con `curl http://ip_balanceador` y este debera contestarnos alternamente con server1 y server2 como se muestra en el siguiente ejemplo:
+
+   ![13](Imagenes/13.png)server1
