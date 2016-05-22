@@ -195,4 +195,4 @@ Para la instalación y configuración de lighttpd debemos seguir los siguientes 
 
 4. Para probar que la nueva configuración funciona correctamente hacemos varias pruebas con `curl http://ip_balanceador` y este debera contestarnos alternamente con server1 y server2 como se muestra en el siguiente ejemplo:
 
-   ![13](Imagenes/13.png)server1
+   ![13](Imagenes/13.png)
