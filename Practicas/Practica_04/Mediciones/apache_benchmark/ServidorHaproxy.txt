@@ -1,0 +1,259 @@
+Servidor HaProxy:
+This is ApacheBench, Version 2.3 <$Revision: 1706008 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 192.168.1.22 (be patient)
+
+
+Server Software:        Apache/2.4.7
+Server Hostname:        192.168.1.22
+Server Port:            80
+
+Document Path:          /test.php
+Document Length:        23 bytes
+
+Concurrency Level:      10
+Time taken for tests:   140.901 seconds
+Complete requests:      1000
+Failed requests:        113
+   (Connect: 0, Receive: 0, Length: 113, Exceptions: 0)
+Total transferred:      210867 bytes
+HTML transferred:       22867 bytes
+Requests per second:    7.10 [#/sec] (mean)
+Time per request:       1409.012 [ms] (mean)
+Time per request:       140.901 [ms] (mean, across all concurrent requests)
+Transfer rate:          1.46 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0    0   0.1      0       1
+Processing:   266 1404 1072.8   1459    2600
+Waiting:      266 1385 1054.3   1454    2580
+Total:        266 1404 1072.8   1459    2600
+
+Percentage of the requests served within a certain time (ms)
+  50%   1459
+  66%   2526
+  75%   2539
+  80%   2543
+  90%   2555
+  95%   2561
+  98%   2577
+  99%   2580
+ 100%   2600 (longest request)
+This is ApacheBench, Version 2.3 <$Revision: 1706008 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 192.168.1.22 (be patient)
+
+
+Server Software:        Apache/2.4.7
+Server Hostname:        192.168.1.22
+Server Port:            80
+
+Document Path:          /test.php
+Document Length:        23 bytes
+
+Concurrency Level:      10
+Time taken for tests:   140.713 seconds
+Complete requests:      1000
+Failed requests:        94
+   (Connect: 0, Receive: 0, Length: 94, Exceptions: 0)
+Total transferred:      210885 bytes
+HTML transferred:       22885 bytes
+Requests per second:    7.11 [#/sec] (mean)
+Time per request:       1407.133 [ms] (mean)
+Time per request:       140.713 [ms] (mean, across all concurrent requests)
+Transfer rate:          1.46 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0    0   0.0      0       1
+Processing:   267 1402 1067.2   1374    2599
+Waiting:      267 1384 1049.7   1374    2592
+Total:        268 1403 1067.2   1374    2599
+
+Percentage of the requests served within a certain time (ms)
+  50%   1374
+  66%   2520
+  75%   2532
+  80%   2540
+  90%   2554
+  95%   2562
+  98%   2574
+  99%   2580
+ 100%   2599 (longest request)
+This is ApacheBench, Version 2.3 <$Revision: 1706008 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 192.168.1.22 (be patient)
+
+
+Server Software:        Apache/2.4.7
+Server Hostname:        192.168.1.22
+Server Port:            80
+
+Document Path:          /test.php
+Document Length:        23 bytes
+
+Concurrency Level:      10
+Time taken for tests:   140.935 seconds
+Complete requests:      1000
+Failed requests:        94
+   (Connect: 0, Receive: 0, Length: 94, Exceptions: 0)
+Total transferred:      210892 bytes
+HTML transferred:       22892 bytes
+Requests per second:    7.10 [#/sec] (mean)
+Time per request:       1409.349 [ms] (mean)
+Time per request:       140.935 [ms] (mean, across all concurrent requests)
+Transfer rate:          1.46 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0    0   0.0      0       0
+Processing:   265 1405 1077.5   1377    2970
+Waiting:      265 1386 1060.0   1376    2952
+Total:        266 1405 1077.5   1377    2970
+
+Percentage of the requests served within a certain time (ms)
+  50%   1377
+  66%   2519
+  75%   2530
+  80%   2540
+  90%   2553
+  95%   2566
+  98%   2580
+  99%   2698
+ 100%   2970 (longest request)
+This is ApacheBench, Version 2.3 <$Revision: 1706008 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 192.168.1.22 (be patient)
+
+
+Server Software:        Apache/2.4.7
+Server Hostname:        192.168.1.22
+Server Port:            80
+
+Document Path:          /test.php
+Document Length:        23 bytes
+
+Concurrency Level:      10
+Time taken for tests:   140.547 seconds
+Complete requests:      1000
+Failed requests:        87
+   (Connect: 0, Receive: 0, Length: 87, Exceptions: 0)
+Total transferred:      210908 bytes
+HTML transferred:       22908 bytes
+Requests per second:    7.12 [#/sec] (mean)
+Time per request:       1405.473 [ms] (mean)
+Time per request:       140.547 [ms] (mean, across all concurrent requests)
+Transfer rate:          1.47 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0    0   0.1      0       1
+Processing:   265 1401 1074.9   1351    2660
+Waiting:      265 1382 1057.0   1350    2624
+Total:        265 1401 1074.9   1352    2660
+
+Percentage of the requests served within a certain time (ms)
+  50%   1352
+  66%   2520
+  75%   2530
+  80%   2540
+  90%   2550
+  95%   2567
+  98%   2586
+  99%   2614
+ 100%   2660 (longest request)
+This is ApacheBench, Version 2.3 <$Revision: 1706008 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 192.168.1.22 (be patient)
+
+
+Server Software:        Apache/2.4.7
+Server Hostname:        192.168.1.22
+Server Port:            80
+
+Document Path:          /test.php
+Document Length:        23 bytes
+
+Concurrency Level:      10
+Time taken for tests:   140.198 seconds
+Complete requests:      1000
+Failed requests:        87
+   (Connect: 0, Receive: 0, Length: 87, Exceptions: 0)
+Total transferred:      210906 bytes
+HTML transferred:       22906 bytes
+Requests per second:    7.13 [#/sec] (mean)
+Time per request:       1401.975 [ms] (mean)
+Time per request:       140.198 [ms] (mean, across all concurrent requests)
+Transfer rate:          1.47 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0    0   0.0      0       1
+Processing:   265 1397 1071.9   1373    2607
+Waiting:      265 1378 1053.6   1372    2601
+Total:        265 1398 1071.9   1373    2607
+
+Percentage of the requests served within a certain time (ms)
+  50%   1373
+  66%   2511
+  75%   2528
+  80%   2531
+  90%   2550
+  95%   2560
+  98%   2570
+  99%   2580
+ 100%   2607 (longest request)
+This is ApacheBench, Version 2.3 <$Revision: 1706008 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 192.168.1.22 (be patient)
+
+
+Server Software:        Apache/2.4.7
+Server Hostname:        192.168.1.22
+Server Port:            80
+
+Document Path:          /test.php
+Document Length:        23 bytes
+
+Concurrency Level:      10
+Time taken for tests:   140.632 seconds
+Complete requests:      1000
+Failed requests:        104
+   (Connect: 0, Receive: 0, Length: 104, Exceptions: 0)
+Total transferred:      210888 bytes
+HTML transferred:       22888 bytes
+Requests per second:    7.11 [#/sec] (mean)
+Time per request:       1406.320 [ms] (mean)
+Time per request:       140.632 [ms] (mean, across all concurrent requests)
+Transfer rate:          1.46 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0    0   0.1      0       1
+Processing:   266 1402 1071.0   1404    2612
+Waiting:      266 1382 1052.3   1404    2580
+Total:        266 1402 1071.0   1404    2612
+
+Percentage of the requests served within a certain time (ms)
+  50%   1404
+  66%   2520
+  75%   2534
+  80%   2540
+  90%   2551
+  95%   2560
+  98%   2571
+  99%   2580
+ 100%   2612 (longest request)

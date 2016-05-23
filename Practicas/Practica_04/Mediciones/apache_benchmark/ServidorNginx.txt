@@ -1,0 +1,259 @@
+Servidor NGINX:
+This is ApacheBench, Version 2.3 <$Revision: 1706008 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 192.168.1.21 (be patient)
+
+
+Server Software:        nginx/1.8.0
+Server Hostname:        192.168.1.21
+Server Port:            80
+
+Document Path:          /test.php
+Document Length:        23 bytes
+
+Concurrency Level:      10
+Time taken for tests:   143.204 seconds
+Complete requests:      1000
+Failed requests:        91
+   (Connect: 0, Receive: 0, Length: 91, Exceptions: 0)
+Total transferred:      200899 bytes
+HTML transferred:       22899 bytes
+Requests per second:    6.98 [#/sec] (mean)
+Time per request:       1432.037 [ms] (mean)
+Time per request:       143.204 [ms] (mean, across all concurrent requests)
+Transfer rate:          1.37 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0    0   0.2      0       3
+Processing:   265 1427 1051.0   1409    2669
+Waiting:      265 1427 1051.0   1409    2669
+Total:        266 1427 1051.0   1412    2669
+
+Percentage of the requests served within a certain time (ms)
+  50%   1412
+  66%   2539
+  75%   2569
+  80%   2580
+  90%   2606
+  95%   2625
+  98%   2640
+  99%   2653
+ 100%   2669 (longest request)
+This is ApacheBench, Version 2.3 <$Revision: 1706008 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 192.168.1.21 (be patient)
+
+
+Server Software:        nginx/1.8.0
+Server Hostname:        192.168.1.21
+Server Port:            80
+
+Document Path:          /test.php
+Document Length:        23 bytes
+
+Concurrency Level:      10
+Time taken for tests:   141.818 seconds
+Complete requests:      1000
+Failed requests:        100
+   (Connect: 0, Receive: 0, Length: 100, Exceptions: 0)
+Total transferred:      200892 bytes
+HTML transferred:       22892 bytes
+Requests per second:    7.05 [#/sec] (mean)
+Time per request:       1418.185 [ms] (mean)
+Time per request:       141.818 [ms] (mean, across all concurrent requests)
+Transfer rate:          1.38 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0    0   0.1      0       1
+Processing:   266 1413 1046.2   1395    2658
+Waiting:      266 1413 1046.3   1395    2658
+Total:        267 1413 1046.2   1396    2658
+
+Percentage of the requests served within a certain time (ms)
+  50%   1396
+  66%   2515
+  75%   2546
+  80%   2563
+  90%   2591
+  95%   2609
+  98%   2628
+  99%   2640
+ 100%   2658 (longest request)
+This is ApacheBench, Version 2.3 <$Revision: 1706008 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 192.168.1.21 (be patient)
+
+
+Server Software:        nginx/1.8.0
+Server Hostname:        192.168.1.21
+Server Port:            80
+
+Document Path:          /test.php
+Document Length:        23 bytes
+
+Concurrency Level:      10
+Time taken for tests:   142.344 seconds
+Complete requests:      1000
+Failed requests:        102
+   (Connect: 0, Receive: 0, Length: 102, Exceptions: 0)
+Total transferred:      200889 bytes
+HTML transferred:       22889 bytes
+Requests per second:    7.03 [#/sec] (mean)
+Time per request:       1423.437 [ms] (mean)
+Time per request:       142.344 [ms] (mean, across all concurrent requests)
+Transfer rate:          1.38 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0    0   0.2      0       3
+Processing:   270 1418 867.1   1409    2677
+Waiting:      270 1418 867.1   1409    2677
+Total:        270 1418 867.1   1411    2677
+
+Percentage of the requests served within a certain time (ms)
+  50%   1411
+  66%   1988
+  75%   2283
+  80%   2515
+  90%   2569
+  95%   2590
+  98%   2612
+  99%   2622
+ 100%   2677 (longest request)
+This is ApacheBench, Version 2.3 <$Revision: 1706008 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 192.168.1.21 (be patient)
+
+
+Server Software:        nginx/1.8.0
+Server Hostname:        192.168.1.21
+Server Port:            80
+
+Document Path:          /test.php
+Document Length:        23 bytes
+
+Concurrency Level:      10
+Time taken for tests:   142.315 seconds
+Complete requests:      1000
+Failed requests:        101
+   (Connect: 0, Receive: 0, Length: 101, Exceptions: 0)
+Total transferred:      200881 bytes
+HTML transferred:       22881 bytes
+Requests per second:    7.03 [#/sec] (mean)
+Time per request:       1423.152 [ms] (mean)
+Time per request:       142.315 [ms] (mean, across all concurrent requests)
+Transfer rate:          1.38 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0    0   0.0      0       1
+Processing:   268 1418 1059.9   1391    2718
+Waiting:      268 1418 1059.9   1391    2718
+Total:        268 1418 1059.9   1391    2718
+
+Percentage of the requests served within a certain time (ms)
+  50%   1391
+  66%   2533
+  75%   2555
+  80%   2565
+  90%   2588
+  95%   2605
+  98%   2622
+  99%   2633
+ 100%   2718 (longest request)
+This is ApacheBench, Version 2.3 <$Revision: 1706008 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 192.168.1.21 (be patient)
+
+
+Server Software:        nginx/1.8.0
+Server Hostname:        192.168.1.21
+Server Port:            80
+
+Document Path:          /test.php
+Document Length:        23 bytes
+
+Concurrency Level:      10
+Time taken for tests:   142.295 seconds
+Complete requests:      1000
+Failed requests:        85
+   (Connect: 0, Receive: 0, Length: 85, Exceptions: 0)
+Total transferred:      200909 bytes
+HTML transferred:       22909 bytes
+Requests per second:    7.03 [#/sec] (mean)
+Time per request:       1422.953 [ms] (mean)
+Time per request:       142.295 [ms] (mean, across all concurrent requests)
+Transfer rate:          1.38 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0    0   0.1      0       1
+Processing:   267 1418 1048.7   1417    2664
+Waiting:      266 1418 1048.7   1417    2663
+Total:        267 1418 1048.7   1417    2664
+
+Percentage of the requests served within a certain time (ms)
+  50%   1417
+  66%   2525
+  75%   2550
+  80%   2564
+  90%   2585
+  95%   2600
+  98%   2617
+  99%   2629
+ 100%   2664 (longest request)
+This is ApacheBench, Version 2.3 <$Revision: 1706008 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 192.168.1.21 (be patient)
+
+
+Server Software:        nginx/1.8.0
+Server Hostname:        192.168.1.21
+Server Port:            80
+
+Document Path:          /test.php
+Document Length:        23 bytes
+
+Concurrency Level:      10
+Time taken for tests:   140.695 seconds
+Complete requests:      1000
+Failed requests:        97
+   (Connect: 0, Receive: 0, Length: 97, Exceptions: 0)
+Total transferred:      200892 bytes
+HTML transferred:       22892 bytes
+Requests per second:    7.11 [#/sec] (mean)
+Time per request:       1406.950 [ms] (mean)
+Time per request:       140.695 [ms] (mean, across all concurrent requests)
+Transfer rate:          1.39 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0    0   0.1      0       1
+Processing:   266 1402 1034.4   1453    2628
+Waiting:      266 1402 1034.4   1453    2628
+Total:        266 1402 1034.4   1453    2628
+
+Percentage of the requests served within a certain time (ms)
+  50%   1453
+  66%   2497
+  75%   2522
+  80%   2533
+  90%   2556
+  95%   2571
+  98%   2587
+  99%   2601
+ 100%   2628 (longest request)
