@@ -148,3 +148,39 @@ Para comprobar que todo funciona correctamente en el esclavo ejecutamos `show sl
 ![13](Imagenes/13.png)
 
 Con esto hemos terminado la configuración de nuestro maestro-esclavo.
+
+## Replicación de BD mediante una configuración maestro-maestro
+
+Ahora vamos a proceder a realizar la configuración de maestro-maestro. Para ello debemos configurar el maestro y el esclavo en las dos máquinas.
+
+Procedemos a crear el usuario en el segundo servidor y a darle acceso para la replicación igual que lo hicimos en el maestro anteriormente.
+
+```
+mysql -u root -p
+CREATE USER esclavo IDENTIFIED BY 'esclavo';
+GRANT REPLICATION SLAVE ON *.* TO 'esclavo'@'%' IDENTIFIED BY 'esclavo';
+FLUSH PRIVILEGES;
+FLUSH TABLES;
+FLUSH TABLES WITH READ LOCK;
+SHOW MASTER STATUS;
+```
+
+![14](Imagenes/14.png)
+
+Ahora nos vamos a la otra máquina e introducimos los datos del usuario creado.
+
+```
+mysql -u root -p
+change master to master_host="ip_server_1", master_user='esclavo', master_password='esclavo', master_log_file = 'mysql-bin.000001', master_log_pos = 501, master_port = 3306;
+
+start slave;
+unlock tables;
+```
+
+![15](Imagenes/15.png)
+
+Ahora comprobamos que todo ha ido bien con el comando `show slave status\G` y comprobamos que el campo `second_behind_master` es distinto de null.
+
+![16](Imagenes/16.png)
+
+Con esto terminamos la configuración del maestro-maestro.
