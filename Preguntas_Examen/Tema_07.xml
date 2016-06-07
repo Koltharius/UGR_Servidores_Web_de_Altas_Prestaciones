@@ -1,16 +1,16 @@
 <pregunta>
-   <enunciado></enunciado>
-   <opcionA></opcionA>
-   <opcionB></opcionB>
-   <opcionC></opcionC>
-   <opcionD></opcionD>
-   <solucion></solucion>
+	<enunciado>El RAID 1</enunciado>
+	<opcionA>Crea una copia exacta (o espejo) de un conjunto de datos en dos o más discos</opcionA>
+	<opcionB>Usa división a nivel de bits</opcionB>
+	<opcionC>Usa división a nivel de bloques con un disco de paridad dedicado</opcionC>
+	<opcionD>Ninguna de las anteriores</opcionD>
+	<solucion>A</solucion>
 </pregunta>
 <pregunta>
-   <enunciado></enunciado>
-   <opcionA></opcionA>
-   <opcionB></opcionB>
-   <opcionC></opcionC>
-   <opcionD></opcionD>
-   <solucion></solucion>
+	<enunciado>¿Qué significan las siglas NAS?</enunciado>
+	<opcionA>Netlan Attached Shared</opcionA>
+	<opcionB>Network Attached Storage</opcionB>
+	<opcionC>Network Area Shared</opcionC>
+	<opcionD>Netlan Area Storage</opcionD>
+	<solucion>B</solucion>
 </pregunta>
