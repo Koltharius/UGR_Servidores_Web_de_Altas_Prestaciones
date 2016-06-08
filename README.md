@@ -17,3 +17,11 @@ Prácticas de la asignatura Servidores Web de Altas Prestaciones
 - [Tema 5](https://github.com/Koltharius/UGR_Servidores_Web_de_Altas_Prestaciones/blob/master/Preguntas_Examen/Tema_05.xml)
 - [Tema 6](https://github.com/Koltharius/UGR_Servidores_Web_de_Altas_Prestaciones/blob/master/Preguntas_Examen/Tema_06.xml)
 - [Tema 7](https://github.com/Koltharius/UGR_Servidores_Web_de_Altas_Prestaciones/blob/master/Preguntas_Examen/Tema_07.xml)
+
+## Trabajo Final
+
+Trabajo final  y exposisición de la asignatura realizado David Sánchez Jiménez y António Alcalá Martínez.
+
+En este trabajo explicaremos como montar una granja web con un balanceador de carga con tecnología de Microsoft en máquinas Windows Server 2012 así como los pros y los contras a los que hemos llegado llevando a cabo dicha instalación.
+
+Para ello, se explicará paso a paso como instalar y configurar los servidores IIS, como realizar la creación y configuración de un dominio web mediante un servidor de DNS, la configuración e instalación del Network Load Balancing (NLB) y la creación de la granja web así como la creación de un Sistema Distribuido de Archivos (DFS) con el cual replicar el contenido web.
